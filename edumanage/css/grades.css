@@ -1,0 +1,17 @@
+/* ==========================================================================
+   grades.css — Grade badges and ranking highlights
+   ========================================================================== */
+
+.badge-grade { padding: 3px 10px; border-radius: 999px; font-size: 11.5px; font-weight: 700; white-space: nowrap; }
+.badge-grade.excellent { background: #ECFDF5; color: #059669; }
+.badge-grade.very-good { background: #EFF6FF; color: #0284C7; }
+.badge-grade.good { background: #EEF2FF; color: #4F46E5; }
+.badge-grade.pass { background: #FFF7ED; color: #D97706; }
+.badge-grade.fail { background: #FEF2F2; color: #DC2626; }
+[data-theme="dark"] .badge-grade.excellent { background: #052E22; color: #34D399; }
+[data-theme="dark"] .badge-grade.very-good { background: #082F49; color: #38BDF8; }
+[data-theme="dark"] .badge-grade.good { background: #1E1F3A; color: #818CF8; }
+[data-theme="dark"] .badge-grade.pass { background: #3A2A0A; color: #FBBF24; }
+[data-theme="dark"] .badge-grade.fail { background: #3A0A0A; color: #F87171; }
+
+.rank-highlight td { font-weight: 600; background: linear-gradient(90deg, rgba(79,70,229,0.06), transparent); }
